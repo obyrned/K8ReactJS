@@ -1,3 +1,8 @@
+https://youtu.be/FqpfVrdELoI
+I worked through Vadim Denis' course on Youtube and made a Docker Compose file that wraps it all up in one command. This React JS app works great in GKE.
+
+
+
 # Hi! Thanks for attending my course! In this github repository you will find needed files in order to deploy React JS and Laravel applications.
 
 I have attached the code base for React JS deployed on Kubernetes that you will use in this chapter.  If you get stuck at any moment, please feel free to refer to this code.
