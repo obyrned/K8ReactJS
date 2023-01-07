@@ -1,0 +1,9 @@
+version: '3'
+services:
+  website:
+    #image: obyrned/react-demo
+    #image: us.gcr.io/k8-levadim-demo/react-demo:0.0.4
+    image: obyrned/react-demo:0.0.5
+    ports:
+      - "80:8080"
+    restart: always
