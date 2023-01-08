@@ -1,0 +1,8 @@
+Tag your docker hub file and prep for Google repo
+docker tag obyrned/react-demo:0.0.5 us.gcr.io/k8-levadim-demo/react-demo:0.0.1
+
+docker build -t us.gcr.io/k8-levadim-demo/react-demo:0.0.3 . --build-arg CONFIG_PATH=config_production --no-cache
+
+docker build --platform amd64 -t obyrned/react-demo:0.0.5 . --build-arg CONFIG_PATH=config_production --no-cache
+
+us.gcr.io/k8-levadim-demo/react-demo:0.0.5
